@@ -175,7 +175,7 @@ Download the ZIP file and extract it in a directory.
 - **Method**: DELETE
 
 ### Logging in
-- **URL**: `/login
+- **URL**: `/login`
 - **Method**: POST
 - **Body**:
     ```json
@@ -187,7 +187,7 @@ Download the ZIP file and extract it in a directory.
 - After entering the method POST, session_token will be generated. Put the session_token inside Authorization's value in order to access the /items, otherwise it will return Forbidden/Unauthorized.
 
 ### Logging out
-- **URL**: `/logout
+- **URL**: `/logout`
 - **Method**: POST
 - **Body**:
     ```json
