@@ -98,7 +98,7 @@ Download the ZIP file and extract it in a directory.
         OWNER to postgres;
     ```
 
-3. **Insert initial data** (if any)
+3. **Insert initial data**
     ```sql
     INSERT INTO users (username, password) VALUES ('Ahya', '123');
     INSERT INTO users (username, password) VALUES ('Eki', '456');
