@@ -113,7 +113,7 @@ Download the ZIP file and extract it in a directory.
 
 ### Running the application
 - To start the server: `go run main.go`
-- Start operating in Postman
+- Start operating through Postman
 
 ### Using Postman
 
@@ -184,7 +184,7 @@ Download the ZIP file and extract it in a directory.
         "password": "123"
     }
     ```
-- After entering the method POST, session_token will be generated. Put the session_token inside Authorization's value in order to access the /items, otherwise it will return Forbidden/Unauthorized.
+- After entering the method POST, session_token will be generated. Inside the header by Authorization as its key name, put the session_token in its key value in order to access the /items, otherwise it will return Forbidden/Unauthorized.
 
 ### Logging out
 - **URL**: `/logout`
@@ -196,7 +196,7 @@ Download the ZIP file and extract it in a directory.
         "password": "123"
     }
     ```
-- Make sure to have the same session_token that was generated during login process, otherwise it will return Forbidden/Unathorized.
+- Make sure to have the same session_token inside the header that was generated during login process, otherwise it will return Forbidden/Unathorized.
 
 ## Contributing
 
