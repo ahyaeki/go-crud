@@ -138,7 +138,7 @@ Download the ZIP file and extract it in a directory.
 
 ### Example Requests
 
-- In order to create, read, update, and delete items, it is necessary to login first by using the method of POST in `/login` with existing user's information. After logged in, session_token will be generated, which will be manually entered inside the header for Authorization as its key name and session_token's value as its key value.
+(In order to create, read, update, and delete items, it is necessary to login first by using the method of POST in `/login` with existing user's information. After logged in, session_token will be generated, which will be manually entered inside the header for Authorization as its key name and session_token's value as its key value.)
 
 #### Create an item
 - **URL**: `/items`
